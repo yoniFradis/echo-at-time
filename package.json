@@ -16,9 +16,7 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "start": "node app.js",
-    "test": "npm run test:e2e",
-    "test:e2e": "mocha --recursive --no-timeouts --exit ./tests/e2e/routes/*"
+    "start": "node app.js"
   },
   "author": "Yoni Fradis"
 }
